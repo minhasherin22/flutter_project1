@@ -1,0 +1,2 @@
+flutter.ndkVersion-ndkversion
+flutter.compileSdkVersion-compilessdkversion
