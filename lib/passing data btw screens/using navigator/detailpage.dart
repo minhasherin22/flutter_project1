@@ -6,7 +6,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_project1/passing%20data%20btw%20screens/using%20navigator/dummy%20data.dart';
 
 class DetailPage extends StatelessWidget {
-  const DetailPage({super.key});
+  const DetailPage({super.key, required int index});
 
   @override
   Widget build(BuildContext context) {

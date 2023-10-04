@@ -12,7 +12,7 @@ void main(){
     MaterialApp(
       home: ProductHome(),
       routes: {
-        "details":(context)=>DetailPage()
+        "details":(context)=>DetailPage(index: 0,)
       },
   ),
   

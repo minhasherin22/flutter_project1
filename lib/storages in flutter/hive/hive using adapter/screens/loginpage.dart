@@ -51,8 +51,8 @@ class Login extends StatelessWidget {
           ),
           ElevatedButton(
               onPressed: () async{
-                final users = await HiveDb.instance.getUser();
-                checkUserExist(context,users);
+                // final users = await HiveDb.instance.getUser();
+                // checkUserExist(context,users);
               },
               child: const Text("Login")),
           TextButton(

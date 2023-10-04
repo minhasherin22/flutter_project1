@@ -36,8 +36,8 @@ class RegisterHive extends StatelessWidget {
           ElevatedButton(
               onPressed: () async {
                 //fetch all the users from db
-                final userlist = await HiveDb.instance.getUser();
-                validateSignUp(context, userlist);
+                // final userlist = await HiveDb.instance.getUser();
+                // validateSignUp(context, userlist);
               },
               child: const Text("Login")),
         ],
@@ -67,7 +67,7 @@ class RegisterHive extends StatelessWidget {
           final validatePassword = validatePassWord(context, pwd);
           if (validatePassword == true) {
             final user = User(email: uname, password: pwd);
-            await HiveDb.instance.addUser(user); // user added to hive db
+            // await HiveDb.instance.addUser(user); // user added to hive db
             // Navigator.of(context)
             //     .push(MaterialPageRoute(builder: (context) => LoginPage()));
             Get.offAll(LoginPage());

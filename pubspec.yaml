@@ -55,7 +55,16 @@ dependencies:
   email_validator: ^2.1.17
   #api integration using http
   http: ^0.13.5
+   #get
+  cached_network_image: ^3.2.3
+  #api integration using dio
+  dio: ^5.3.3
+  scrollable_positioned_list: ^0.3.8 #(for our list)
+  internet_connection_checker: ^1.0.0+1
+  top_snackbar_flutter: ^3.1.0
   #get
+  #lottie for animation
+ 
  
  
   
